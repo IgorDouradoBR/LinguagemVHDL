@@ -1,0 +1,2 @@
+vhdl work "../../calculadora.vhd"
+vhdl work "../../calculadora_tb.vhd"

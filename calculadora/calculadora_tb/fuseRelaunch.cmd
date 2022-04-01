@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/igord/Desktop/SIStemas dig/calculadora/calculadora_tb/calculadora_tb_isim_beh.exe" -prj "C:/Users/igord/Desktop/SIStemas dig/calculadora/calculadora_tb/calculadora_tb_beh.prj" "work.calculadora_tb" 

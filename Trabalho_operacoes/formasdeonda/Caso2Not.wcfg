@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/igord/Desktop/Work/Trabalho_operacoes/ula_fsd_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="ula_fsd" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/ula_fsd/op_alu" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op_alu[3:0]</obj_property>
+      <obj_property name="ObjectShortName">op_alu[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ula_fsd/op2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op2[11:0]</obj_property>
+      <obj_property name="ObjectShortName">op2[11:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ula_fsd/op1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">op1[11:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ula_fsd/out_alu" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_alu[11:0]</obj_property>
+      <obj_property name="ObjectShortName">out_alu[11:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ula_fsd/cout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cout</obj_property>
+      <obj_property name="ObjectShortName">cout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ula_fsd/ov" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ov</obj_property>
+      <obj_property name="ObjectShortName">ov</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ula_fsd/soma_interna" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">soma_interna[12:0]</obj_property>
+      <obj_property name="ObjectShortName">soma_interna[12:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ula_fsd/subtracao_interna" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">subtracao_interna[12:0]</obj_property>
+      <obj_property name="ObjectShortName">subtracao_interna[12:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ula_fsd/dobrar" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dobrar[0:12]</obj_property>
+      <obj_property name="ObjectShortName">dobrar[0:12]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>

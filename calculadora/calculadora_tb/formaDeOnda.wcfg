@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/igord/Desktop/SIStemas dig/calculadora/calculadora_tb/calculadora_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="calculadora_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/calculadora_tb/clock_tb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock_tb</obj_property>
+      <obj_property name="ObjectShortName">clock_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calculadora_tb/reset_tb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset_tb</obj_property>
+      <obj_property name="ObjectShortName">reset_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calculadora_tb/opmode_tb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">opmode_tb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">opmode_tb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calculadora_tb/din_tb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din_tb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din_tb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calculadora_tb/cout_tb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cout_tb</obj_property>
+      <obj_property name="ObjectShortName">cout_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calculadora_tb/saida_tb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">saida_tb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">saida_tb[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calculadora_tb/calc/reg_x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_x[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_x[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calculadora_tb/calc/reg_y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_y[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_y[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calculadora_tb/calc/reg_z" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_z[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_z[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calculadora_tb/calc/reg_t" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_t[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calculadora_tb/calc/soma_interna" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">soma_interna[8:0]</obj_property>
+      <obj_property name="ObjectShortName">soma_interna[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calculadora_tb/ov_tb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ov_tb</obj_property>
+      <obj_property name="ObjectShortName">ov_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calculadora_tb/zero_tb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">zero_tb</obj_property>
+      <obj_property name="ObjectShortName">zero_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calculadora_tb/calc/subtracao_interna" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">subtracao_interna[8:0]</obj_property>
+      <obj_property name="ObjectShortName">subtracao_interna[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calculadora_tb/calc/dobrar" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dobrar[8:0]</obj_property>
+      <obj_property name="ObjectShortName">dobrar[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calculadora_tb/calc/complem2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">complem2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">complem2[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calculadora_tb/calc/incrementa" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">incrementa[8:0]</obj_property>
+      <obj_property name="ObjectShortName">incrementa[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/calculadora_tb/calc/decrementa" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">decrementa[8:0]</obj_property>
+      <obj_property name="ObjectShortName">decrementa[8:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,19 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Users/igord/Desktop/Work/Trabalho_operacoes/ula_fsd_isim_beh.exe" -prj "C:/Users/igord/Desktop/Work/Trabalho_operacoes/ula_fsd_beh.prj" "work.ula_fsd" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/igord/Desktop/Work/Trabalho_operacoes/ula_fsd.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture igor_pereira_dourado of entity ula_fsd
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 VHDL Units
+Built simulation executable C:/Users/igord/Desktop/Work/Trabalho_operacoes/ula_fsd_isim_beh.exe
+Fuse Memory Usage: 33744 KB
+Fuse CPU Usage: 389 ms

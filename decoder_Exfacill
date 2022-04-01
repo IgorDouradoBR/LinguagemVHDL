@@ -1,0 +1,35 @@
+Library ieee;
+	use ieee.std_logic_1164.all;
+	use ieee.std_logic_unsigned.all;
+	use ieee.std_logic_arith.all;
+
+entity decoder_exerc is
+port
+(
+	abc		:	in std_logic_vector(0 to 2);
+	display :	out std_logic_vector(0 to 6)--sem ; display(0)= Ya e display(6) = Yg
+	
+);
+end decoder_exerc;
+
+architecture decoder_Exfacil of decoder_exerc is
+begin
+	decoder_proc: process(abc)
+	begin
+		if abc = "000" then
+			display <= "0111000";
+		elsif abc= "001" then
+			display <= "0001000";
+		elsif abc= "010" then
+			display <= "0110001";
+		elsif abc= "011" then
+			display <= "1111001";
+		elsif abc= "100" then
+			display <= "1110001";
+		else
+			display <= "1111111";
+		end if;		
+	end process decoder_proc; 
+
+
+end decoder_Exfacil;

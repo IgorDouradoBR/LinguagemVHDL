@@ -1,0 +1,23 @@
+Library ieee;
+	use ieee.std_logic_1164.all;
+entity decoder_somador is
+port
+(
+	a	: in std_logic;
+	b	: in std_logic;
+	ci	: in std_logic;
+	
+	s	: out std_logic;
+	co 	: out std_logic
+);
+end decoder_somador;
+
+architecture decoder_somador_arch of decoder_somador is
+
+begin
+	s <= a xor b xor ci;
+	
+	co <= (a and b) or (a and ci) or (b and ci);
+
+
+end decoder_somador_arch;
